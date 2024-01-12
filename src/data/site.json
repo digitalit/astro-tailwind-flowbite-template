@@ -20,6 +20,14 @@
     {
       "title": "Contact",
       "href": "/contact"
+    },
+    {
+      "title": "Components",
+      "href": "/components"
+    },
+    {
+      "title": "Lab",
+      "href": "/lab"
     }
   ],
   "social": [

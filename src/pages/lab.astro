@@ -1,0 +1,21 @@
+---
+import Layout from '../layouts/Layout.astro'
+
+import HeaderSmall from '../components/HeaderSmall.astro'
+import Modal from '../components/Modal.astro'
+const title = 'Lab'
+const subtitle = 'Contact me using the form below. Or find me online!'
+---
+
+<Layout title="Lab">
+  <div>
+    <HeaderSmall title={title} subtitle={subtitle} />
+  </div>
+  <main>
+    <div class="max-w-md m-auto my-8">
+      <Modal button="Open" title="Modal1" content="My modal content" />
+    </div>
+  </main>
+</Layout>
+
+<style></style>
